@@ -4,7 +4,7 @@ fieldset, img { border:none; }
 img{display: block;}
 address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
 ul, ol { list-style:none; }
-input { padding-top:0; padding-bottom:0; font-family: "Sunrise International Demo"; font-size: 12px;}
+input { padding-top:0; padding-bottom:0;}
 
 select, input { vertical-align:middle; }
 select, input, textarea { font-size:12px; margin:0; }
@@ -13,7 +13,7 @@ textarea { resize:none; }
 table { border-collapse:collapse; }
 body {
 overflow-x: hidden;
-font-family: 'Modak', cursive;
+font-family: 'BioRhyme Expanded', cursive;
 }
 .clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
 .clearfix { zoom:1; }
@@ -26,6 +26,9 @@ display: none;
 }
 
 @font-face {
-  font-family: 'Modak',
-  src: url("https://fonts.googleapis.com/css?family=Modak")
+  font-family: 'BioRhyme Expanded';
+  font-style: normal;
+  font-weight: 300;
+  src: local('BioRhyme Expanded'), local('BioRhymeExpanded-Regular'), url(https://fonts.gstatic.com/s/biorhymeexpanded/v4/i7dQIE1zZzytGswgU577CDY9LjbffxSTT3GtYdjf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
