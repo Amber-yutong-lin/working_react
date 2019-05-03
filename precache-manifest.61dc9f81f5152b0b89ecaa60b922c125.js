@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d461a6dabe8363fd31f7cf146c11977a",
+    "revision": "070ec1090466cb323b7b7ffcbe42d53c",
     "url": "/working_react/index.html"
   },
   {
-    "revision": "8cfa2c9251ec67fd883e",
-    "url": "/working_react/static/css/main.3ebf4b60.chunk.css"
+    "revision": "5b4813beb6cbcd900d15",
+    "url": "/working_react/static/css/main.e30b2449.chunk.css"
   },
   {
     "revision": "357a6361d91ef2a3029c",
     "url": "/working_react/static/js/2.59d17c46.chunk.js"
   },
   {
-    "revision": "8cfa2c9251ec67fd883e",
+    "revision": "5b4813beb6cbcd900d15",
     "url": "/working_react/static/js/main.6f11b490.chunk.js"
   },
   {
     "revision": "2d276e73322f81b1c372",
     "url": "/working_react/static/js/runtime~main.2923eece.js"
-  },
-  {
-    "revision": "8407adb8924e1a008c8e0678004a7a87",
-    "url": "/working_react/static/media/Sunrise International Demo.8407adb8.otf"
   },
   {
     "revision": "c15042c34fc864fc2620a0f450d90b08",
