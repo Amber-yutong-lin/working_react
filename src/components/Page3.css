@@ -1,13 +1,12 @@
 .upload-list>li{
     background-color: #f4f4f4;
-    background:  url(../assets/img/hi.png) no-repeat right top;
+    background:  url(../assets/img/frame_2.png) no-repeat right top;
     float: left;
     width: 180px;
     height:240px;
-    padding:30px 30px 105px 30px;
+    padding:21px 25px 105px 30px;
     margin-right: 20px;
     margin-bottom: 20px;
-    cursor: move;
     position: relative;
 
 }
@@ -19,8 +18,8 @@
     text-align: center;
 }
 .upload-list>li .upload-list-inner>img{
-    width:  100%;
-    height:  100%;
+    width:  109%;
+    height:  103%;
     text-align: center;
 
 
