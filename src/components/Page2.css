@@ -1,0 +1,117 @@
+.page2-title{
+    color: #d93d3d;
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: float 6s ease-in-out infinite;
+
+
+}
+.page2-search{
+   text-align: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+}
+.page2-search input{
+    color:#757575;
+    outline: none;
+    width: 300px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    font-size: 28px;
+    text-indent: 10px;
+
+}
+
+
+.album-list > li{
+    float: left;
+    width: 252px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.album-list .album-img{
+    border: 1px solid white;
+    background-color: #f0f0f0;
+    width: 252px;
+    height: 252px;
+    margin-bottom: 20px;
+
+
+}
+.album-list .album-img:hover{
+  background-color: #cecece;
+}
+.album-list .album-img.active{
+    border: 1px solid #fe0000;
+
+}
+.album-list .album-name{
+    text-align: center;
+
+}
+.album-list .album-name > input{
+    border: none;
+    outline: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    color:#757575;
+
+}
+
+.album-list .album-name > input:focus{
+ animation: none !important;
+ border-right: none;
+
+}
+
+.album-list .add-img{
+    width: 50px;
+    height: 50px;
+    margin: 60px auto 20px;
+    position: relative;
+
+}
+.album-list .add-img:before{
+    content: "";
+    width: 8px;
+    height: 100%;
+    left:50%;
+    top:0;
+    margin-left: -4px;
+    background-color: #d93d3e;
+    position: absolute;
+    border-radius: 3px;
+}
+.album-list .add-img:after{
+    content: "";
+    width: 100%;
+    height: 8px;
+    left:0;
+    top:50%;
+    margin-top: -4px;
+    background-color: #d93d3e;
+    position: absolute;
+    border-radius: 3px;
+}
+.album-list .add-text{
+    font-size: 28px;
+    color: #d93d3e;
+    text-align: center;
+}
+
+@keyframes blink-caret {
+
+from, to { border-color: transparent }
+50% { border-color: #757575 }
+}

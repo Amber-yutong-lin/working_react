@@ -1,0 +1,87 @@
+html,body,#root,.App,.page1,.page2,.page3{
+    height: 100%;
+}
+.p40{
+    padding: 0px 40px 0 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.content{
+    padding-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+    flex: 1;
+    position: relative;
+}
+.page-enter{
+    animation: float 6s ease-in-out infinite;
+    width: 454px;
+    height:200px;
+    background: url(./assets/img/page1.png) no-repeat center top;
+
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -60px;
+    margin-left: -227px;
+    text-align: center;
+}
+.page-enter a{
+    line-height: 120px;
+    font-size: 40px;
+    color: #d93d3d;
+    font-weight: 800;
+}
+
+.page-enter a:hover{
+    color: #dd7171;
+}
+
+
+
+.footer{
+  animation: float 6s ease-in-out infinite;
+  text-align: center;
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+}
+.footer>span{
+    color:#757575;
+    font-size: 35px;
+    line-height: 100px;
+
+}
+.footer>span>a{
+    color: #de4a4a;
+
+}
+.footer>span>a:hover{
+    cursor: pointer;
+    color:#dd7171;
+}
+img{
+  height: 500px;
+  
+  float:right;
+
+}
+@keyframes float {
+	0% {
+
+		transform: translatey(0px) translatex(0px);
+	}
+	50% {
+
+		transform: translatey(-20px) translatex(20px);
+	}
+	100% {
+
+		transform: translatey(0px) translatex(0px);
+	}
+}
