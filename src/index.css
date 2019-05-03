@@ -13,7 +13,7 @@ textarea { resize:none; }
 table { border-collapse:collapse; }
 body {
 overflow-x: hidden;
-font-family: "Sunrise International Demo";
+font-family: 'Modak', cursive;
 }
 .clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
 .clearfix { zoom:1; }
@@ -23,4 +23,9 @@ a:visited { color:#666; }
 a:hover, a:active, a:focus { text-decoration:none; }
 .hide{
 display: none;
+}
+
+@font-face {
+  font-family: 'Modak',
+  src: url("https://fonts.googleapis.com/css?family=Modak")
 }
